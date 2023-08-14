@@ -1,0 +1,69 @@
+html {
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar{
+    display: none;
+}
+
+#main-new {
+    background-color: transparent;
+}
+
+section {
+    height: 100vh;
+}
+
+#home {
+    background: url('');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.custom-col {
+    margin-top: 25%;
+
+}
+
+i{
+    color: black;
+}
+
+img {
+    filter: grayscale(1);
+}
+
+.abouts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.text {
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.img-hero {
+    height: auto;
+    margin-top: 15%;
+
+}
+
+
+
+.card-icon {
+    font-size: 2rem;
+}
+
+.block {
+    height: .4rem;
+    width: 8rem;
+    background-color: black;
+    margin-right: auto;
+    margin-left: auto;
+    opacity: 5;
+    
+   
+}
